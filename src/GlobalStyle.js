@@ -295,6 +295,7 @@ span{
 }
 .pt{
   padding-top: 0px;
+  padding-bottom: 25px;
 }
 .pin{
   color:#80604D;
