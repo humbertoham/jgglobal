@@ -10,7 +10,7 @@ const Contact = () => {
         <Text>
           <h1>Contáctanos</h1>
         </Text>
-        <Con>
+        <Con className="ptp">
           <h1>
             <FontAwesomeIcon className="google" size="2x" icon={faGoogle} />
             mail: ventas.jgglobal@gmail.com
