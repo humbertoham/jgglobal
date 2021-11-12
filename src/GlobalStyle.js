@@ -306,7 +306,7 @@ span{
 .ab{
   color: var(--blue);
   @media (max-width: 768px) {
-           font-size: 7rem;
+           font-size: 5rem;
   }
   :hover{
     color:var(--yellow);
