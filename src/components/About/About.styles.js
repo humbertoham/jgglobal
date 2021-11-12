@@ -13,8 +13,8 @@ export const Content = styled.div`
   justify-content: center;
   align-items: center;
   @media screen and (max-width: 720px) {
-    justify-content: none;
-    align-items: none;
+    justify-content: normal;
+    display: block;
   }
   ::after {
     content: "";
