@@ -81,7 +81,7 @@ export const MapContainer = styled.div`
   margin: auto;
   @media screen and (max-width: 720px) {
     padding: 0;
-    width: 300px;
+    width: auto;
     float: none;
   }
   p {
