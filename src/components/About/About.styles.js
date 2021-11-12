@@ -9,6 +9,9 @@ export const Wrapper = styled.div`
 `;
 
 export const Content = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
   ::after {
     content: "";
     display: table;
@@ -16,6 +19,8 @@ export const Content = styled.div`
   }
 `;
 export const Box = styled.div`
+  margin: 25px;
+  text-align: center;
   float: left;
   width: 33.33333%;
   padding: 25px;
@@ -64,5 +69,34 @@ export const Text = styled.div`
     padding: 25px 0px 0px 0px;
     width: auto;
     float: none;
+  }
+`;
+export const MapContainer = styled.div`
+  padding: 25px;
+  height: auto;
+  width: 500px;
+  margin: auto;
+  @media screen and (max-width: 720px) {
+    padding: 0;
+    width: 300px;
+    float: none;
+  }
+  p {
+    text-align: center;
+    color: var(--yellow);
+    font-size: var(--fontSmall);
+    flex-wrap: nowrap;
+  }
+`;
+export const Map = styled.img`
+  border: 5px solid var(--yellow);
+  border-radius: 25px;
+  display: block;
+  height: auto;
+  width: 100%;
+  padding: 30px;
+  margin: auto;
+  @media screen and (max-width: 720px) {
+    padding: 0;
   }
 `;

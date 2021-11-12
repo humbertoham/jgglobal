@@ -48,6 +48,7 @@ export const MapContainer = styled.div`
   }
 `;
 export const Map = styled.img`
+  border-radius: 25%;
   display: block;
   height: auto;
   width: 100%;

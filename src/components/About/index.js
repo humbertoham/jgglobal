@@ -1,7 +1,14 @@
 import React, { useEffect } from "react";
-import { Content, Wrapper, Text, Box } from "./About.styles";
+import { Content, Wrapper, Text, Box, Map, MapContainer } from "./About.styles";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import MapR from "../../images/cer.jpg";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import {
+  faHandshake,
+  faLock,
+  faUsers,
+} from "@fortawesome/free-solid-svg-icons";
 const About = () => {
   useEffect(() => {
     Aos.init({ duration: 2000 });
@@ -23,7 +30,12 @@ const About = () => {
           <p>• Comunicación efectiva</p>
         </Text>
       </Content>
+
       <Content data-aos="fade-right">
+        <Box>
+          {" "}
+          <FontAwesomeIcon className="ab" size="10x" icon={faLock} />{" "}
+        </Box>
         <Text className="right">
           <h1>Misión</h1>
           <p>
@@ -34,6 +46,10 @@ const About = () => {
         </Text>
       </Content>
       <Content data-aos="fade-right">
+        <Box>
+          {" "}
+          <FontAwesomeIcon className="ab" size="10x" icon={faHandshake} />{" "}
+        </Box>
         <Text className="right">
           <h1>Valores</h1>
           <p>1. Altos principios éticos</p>
@@ -45,6 +61,10 @@ const About = () => {
         </Text>
       </Content>
       <Content data-aos="fade-right">
+        <Box>
+          {" "}
+          <FontAwesomeIcon className="ab" size="10x" icon={faUsers} />{" "}
+        </Box>
         <Text className="right">
           <h1>Visión</h1>
           <p>
@@ -68,6 +88,9 @@ const About = () => {
           <p>• Protección contra incendio</p>
           <p>• CCTV </p>
           <p>• C-TPAT</p>
+          <MapContainer className="right" data-aos="fade-up">
+            <Map src={MapR} />
+          </MapContainer>
         </Text>
       </Content>
     </Wrapper>

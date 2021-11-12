@@ -303,4 +303,14 @@ span{
 .pin{
   color:#80604D;
 }
+.ab{
+  color: var(--blue);
+  @media (max-width: 768px) {
+           font-size: 7rem;
+  }
+  :hover{
+    color:var(--yellow);
+  }
+   
+}
 `;

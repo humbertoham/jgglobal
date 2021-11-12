@@ -32,13 +32,13 @@ export const Container = styled.div`
 export const Text = styled.div`
   font-family: "Montserrat", sans-serif;
   z-index: 1;
-  padding-top: 350px;
+  padding-top: 300px;
   text-align: center;
   margin: auto;
   color: var(--white);
   font-size: var(--fontSuperBig);
   @media (max-width: 768px) {
-    padding-top: 300px;
+    padding-top: 200px;
     font-size: var(--fontBig);
   }
 `;

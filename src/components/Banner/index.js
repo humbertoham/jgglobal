@@ -1,7 +1,7 @@
 import React from "react";
 import { useEffect } from "react";
 import { Container, Wrapper, Text } from "./Banner.styles";
-import image from "../../images/banner.jpg";
+import image from "../../images/banner1.jpg";
 import Aos from "aos";
 import "aos/dist/aos.css";
 const Banner = () => {
