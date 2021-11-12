@@ -12,6 +12,10 @@ export const Content = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  @media screen and (max-width: 720px) {
+    justify-content: none;
+    align-items: none;
+  }
   ::after {
     content: "";
     display: table;
