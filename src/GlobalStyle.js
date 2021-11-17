@@ -313,4 +313,22 @@ span{
   }
    
 }
+.big{
+  h1{
+font-size: var(--fontSuperBig);
+  }
+  
+}
+.ad{
+    margin: auto;
+    text-align: center;
+  color: var(--blue);
+  @media (max-width: 768px) {
+           font-size: 5rem;
+  }
+  :hover{
+    color:var(--yellow);
+  }
+}
+
 `;

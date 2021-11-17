@@ -21,15 +21,12 @@ const Header = () => {
           Inicio
         </MenuLink>
         <hr class="menu" />
-        <MenuLink href="#" className="segundo">
-          Estructura y modelo
-        </MenuLink>
-        <hr class="menu" />
-        <MenuLink href="#" className="tercero">
+
+        <MenuLink href="/empleados" className="segundo">
           Empleados
         </MenuLink>
         <hr class="menu" />
-        <MenuLink href="#" className="cuarto">
+        <MenuLink href="/propuestadeinversion" className="tercero">
           Propuesta de inversión
         </MenuLink>
         <hr class="menu" />
