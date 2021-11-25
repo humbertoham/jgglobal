@@ -5,6 +5,7 @@ import Banner from "./Banner";
 import Perfil from "./Perfil";
 import Work from "./Work";
 import Contact from "./Contact";
+import Ventasf from "./Ventasf";
 
 const Home = () => {
   return (
@@ -12,9 +13,10 @@ const Home = () => {
       <Banner />
       <About />
       <Perfil />
-
+      <Ventasf />
       <Information />
       <Work />
+
       <Contact />
     </>
   );

@@ -330,5 +330,16 @@ font-size: var(--fontSuperBig);
     color:var(--yellow);
   }
 }
-
+.db{
+  display: none;
+  @media (max-width: 768px) {
+            display: block;
+  }
+}
+.dp{
+  display: unset;
+  @media (max-width: 768px) {
+            display: none;
+  }
+}
 `;

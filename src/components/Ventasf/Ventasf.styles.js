@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Wrapper = styled.div`
-  padding: 0px 75px 75px 75px;
+  padding: 75px;
   box-sizing: border-box;
 
   @media screen and (max-width: 720px) {
@@ -78,7 +78,7 @@ export const Text = styled.div`
 export const MapContainer = styled.div`
   padding: 25px;
   height: auto;
-  width: 500px;
+  width: 700px;
   margin: auto;
   @media screen and (max-width: 720px) {
     padding: 0;
@@ -100,17 +100,5 @@ export const Map = styled.img`
   margin: auto;
   @media screen and (max-width: 720px) {
     padding: 0;
-  }
-`;
-
-export const MapC = styled.div`
-  padding: 25px;
-  height: auto;
-  width: 700px;
-  margin: auto;
-  @media screen and (max-width: 720px) {
-    padding: 0;
-    width: auto;
-    float: none;
   }
 `;
