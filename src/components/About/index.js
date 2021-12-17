@@ -112,6 +112,7 @@ const About = () => {
           <p>• Protección contra incendio</p>
           <p>• CCTV </p>
           <p>• C-TPAT</p>
+          <p>REPSE: #AR67695/2021</p>
         </Text>
         <MapContainer className="right" data-aos="fade-up">
           <Map src={MapR} />

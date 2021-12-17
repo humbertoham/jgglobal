@@ -6,7 +6,7 @@ import Perfil from "./Perfil";
 import Work from "./Work";
 import Contact from "./Contact";
 import Ventasf from "./Ventasf";
-
+import Map from "./Map";
 const Home = () => {
   return (
     <>
@@ -16,8 +16,8 @@ const Home = () => {
       <Ventasf />
       <Information />
       <Work />
-
       <Contact />
+      <Map />
     </>
   );
 };

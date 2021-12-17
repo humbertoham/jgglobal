@@ -292,10 +292,12 @@ span{
 }
 .google{
   color:#DB4437;
+  margin-right:10px;
 }
 .pt{
   padding-top: 0px;
   padding-bottom: 50px;
+  max-width: 500px;
 }
 .ptp{
   padding-top: 0px;

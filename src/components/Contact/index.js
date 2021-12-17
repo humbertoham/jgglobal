@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Text, Wrapper, Con } from "./Contact.styles";
 import { faGoogle, faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faMapMarkerAlt } from "@fortawesome/free-solid-svg-icons";
+import { faEnvelope, faMapMarkerAlt } from "@fortawesome/free-solid-svg-icons";
 const Contact = () => {
   return (
     <Wrapper>
@@ -12,9 +12,11 @@ const Contact = () => {
         </Text>
         <Con className="ptp">
           <h1>
-            <FontAwesomeIcon className="google" size="2x" icon={faGoogle} />
-            mail: ventas.jgglobal@gmail.com
+            <FontAwesomeIcon className="google" size="2x" icon={faEnvelope} />
+            Emails:
           </h1>
+          <h1>contacto@jgglobal.mx</h1>
+          <h1>ventas.jgglobal.mx</h1>
         </Con>
         <Con>
           <h1>
@@ -25,8 +27,8 @@ const Contact = () => {
         <Con className="pt">
           <h1>
             <FontAwesomeIcon className="pin" size="2x" icon={faMapMarkerAlt} />{" "}
-            Ubicación: Calle Bugambilias #695, Jarachina norte, Reynosa,
-            Tamaulipas.
+            Ubicación: Sierra vallejo #453 E/ Circuito Independencia, Fracc.
+            Fuentes Coloniales, Reynosa, Tamaulipas.
           </h1>
         </Con>
       </Container>
