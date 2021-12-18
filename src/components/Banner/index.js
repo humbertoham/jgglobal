@@ -13,6 +13,7 @@ const Banner = () => {
       <Container imgUrl={image}>
         <Text data-aos="fade-up">
           Servicio de seguridad privada{" "}
+          <p>REPSE: #AR67695/2021</p>
           <section id="section05" class="demo">
             <a href="#about">
               <span></span>
