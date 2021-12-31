@@ -27,7 +27,7 @@ const Contact = () => {
         <Con className="pt">
           <h1>
             <FontAwesomeIcon className="pin" size="2x" icon={faMapMarkerAlt} />{" "}
-            Ubicación: Sierra vallejo #453 E/ Circuito Independencia, Fracc.
+            Ubicación: Sierra Vallejo #453 E/ Circuito Independencia, Fracc.
             Fuentes Coloniales, Reynosa, Tamaulipas.
           </h1>
         </Con>

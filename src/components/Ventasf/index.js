@@ -22,14 +22,9 @@ const Ventasf = () => {
         <Text>
           <h1>Ventas y servicios digitales</h1>
           <p>
-            Somos una empresa dedicada al desarrollo e implementación efectivos
-            rentables para los sectores industrial, comercial y turístico.
+            Implementamos tecnología para poder adaptar los servicios de
+            seguridad privada a la nueva realidad digital.
           </p>
-          <p>• Excelencia en el servicio</p>
-          <p>• Servicio personalizado</p>
-          <p>• Cumplimiento de objetivos</p>
-          <p>• Trabajo en equipo</p>
-          <p>• Comunicación efectiva</p>
         </Text>
         <MapContainer className="right" data-aos="fade-up">
           <Map src={MapR} />
