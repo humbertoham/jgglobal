@@ -16,7 +16,7 @@ const Contact = () => {
             Emails:
           </h1>
           <h1>contacto@jgglobal.mx</h1>
-          <h1>ventas.jgglobal.mx</h1>
+          <h1>ventas@jgglobal.mx</h1>
         </Con>
         <Con>
           <h1>
